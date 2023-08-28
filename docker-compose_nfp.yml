@@ -51,8 +51,6 @@ services:
     environment:
       - NGINX_BASE_HREF=/deephub-admin-ui/
       - DEEPHUB_ROOT_URL=/deephub
-      - DEEPHUB_MAP_DEFAULT_STYLE=floorplan-image/AutoShow/style.json
-      - DEEPHUB_MAP_ACCESS_TOKEN=07207e8401aa47bea6fb1a8e7a2555da_d43677d40de38c6431bf1e730203ef9a51b79d0e1a3064dce36740b147ffcfd6
     networks:
       - deephub-net
 
